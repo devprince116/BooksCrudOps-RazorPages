@@ -1,0 +1,43 @@
+# Ignore Visual Studio temporary files, build results, and personal settings
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build results
+bin/
+obj/
+out/
+TestResults/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.appxbundle
+*.appx
+*.msi
+
+# Ignore dependencies
+node_modules/
+packages/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Ignore environment settings
+.env
+*.config.local
+appsettings.Development.json
+secrets.json
+
+# Ignore Razor-related temporary files
+**/bin/
+**/obj/
+**/wwwroot/node_modules/
+**/wwwroot/lib/
+
+# Ignore generated files
+Generated_Code/
